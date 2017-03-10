@@ -1,0 +1,43 @@
+.logo{
+	margin-left: 0px;
+	width: 0px;
+	height: 0px;
+}
+.slogan{
+	margin-left: 120px;
+	color: green;
+}
+.list{
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 150%;
+}
+ul{
+	margin-left: 100px;
+	padding-bottom: 7px;
+}
+.headline{
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 120%;
+}
+.main{
+	margin-left: 100px;
+}
+.copyright{
+	float: right;
+}
+h1{
+	margin-top: 0;
+	margin-left: 100px;
+	color: red;
+}
+.senior{
+	color: blue;
+}
+.junior{
+	color: yellow;
+}
+.normal{
+	color: pink;
+}

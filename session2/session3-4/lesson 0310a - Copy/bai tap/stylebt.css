@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.aaa{
+	margin-left: 50px;
+	height: 100px;
+	width: 80%;
+}
+.image{
+	float: left;
+	margin-left: 50px;
+	height: 100px;
+	width: 30%;
+}
+.bbb{
+	float: right;
+	margin-right: 50px;
+	height: 100px;
+	width: 30%;
+}

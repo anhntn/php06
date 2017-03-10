@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.nav>ul {
+    list-style-type: none;
+}
+
+.nav>ul>li {
+    float: left;
+    margin: 10px;
+    display: block;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.nav>ul>li>ul>li {
+    color: red;
+}
+
+.nav>ul>li>ul>li {
+    list-style-type: none;
+    display: none;
+}
+
+.nav>ul>li>ul>li>a {
+    display: block;
+}
+
+.nav>ul>li:hover>ul>li {
+    display: block;
+}

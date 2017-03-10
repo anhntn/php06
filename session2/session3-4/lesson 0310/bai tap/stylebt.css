@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	border-radius: 10px 20px 20px 20px;
+	border: 4px solid red;
+	margin: 0 auto;
+	width: 90%;    /* changed from 960px */
+	max-width: 1024px;
+}
+header{
+	clear: both;
+	height: auto;
+	margin: 3px;
+	width: 98%;	/* 930 / 960 */
+	padding: 10px 1.3%; /* 15 / 960 */
+	border-bottom: 2px solid black;
+}
+footer{
+ 	clear: both;
+ 	height: 400px;
+ 	margin: 20px;
+ 	width: 96.875%;    /* 930 / 960 */
+ 	padding: 15px 1.5625%;    /* 15 / 960 */
+	border-top: 2px solid black;
+}
+#nav{
+	width: 20%;
+	height: 700px;
+	float: left;
+}
+section{
+	width: 40%;    /* 570 / 960 */   
+	height: 700px;
+	float: left;
+	margin-left: 9px;
+	padding: 15px 1.5625%;    /* 15 / 960 */
+}
+#aside_right{
+	width: 20%;
+	height: 700px;
+	float: right;
+	margin-right: 10px;
+	padding: 15px 1.5625%;    /* 15 / 960 */
+}
+.bigbox{
+	width: 90%;
+	height: auto;
+	margin: 10px;
+}
+.smallbox{
+	width: 90%;
+	height: 73px;
+	margin: 10px;
+}
+p{
+	font-size: 150%;
+}
+h1{
+	margin-top: 4px;
+	font-size: 200%;
+}
+p, .section{
+	text-align: center;
+}
+.aside_right{
+	text-align: center;
+	margin-top: 100px;
+	color: red;
+}
+.headnfoot{
+	margin-top: 25px;
+}
+.article{
+	margin-top: 55px;
+	width: 90%;
+}
+section, #aside_right, #nav, .smallbox, .bigbox{
+	border-radius: 15px 15px 15px 15px;
+	border: 4px solid blue;
+}
+.menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 30px;
+	clear: both;
+}
+.menu li {
+	font-family: sans-serif;
+	font-size: 14px;
+	float: left;
+	background-color: blue;
+	margin: 1.5px 1.5px;
+}
+.menu li a, .dropdown{
+	display: inline-block;
+	color: black;
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+}
+.menu li a:hover, .drop:hover .dropdown{
+	background-color: pink;
+	text-decoration: underline;
+}
+.menu li.drop{
+	display: block;
+}
+.menu .drop-choice {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    margin-left: 54.5px;
+    width: 83.2%;
+    left: 0;
+}
+.menu .drop-choice a{
+	text-decoration: none;
+	float: left;
+	margin: 4px 4px;
+	display: block;
+}
+.menu .drop-choice a:hover {
+	background-color: blue;
+}
+.menu .drop:hover .drop-choice{
+    display: block;
+}
+.banner1{
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+.banner1 img{
+	height: 100px;
+    width: 400px;
+}
+.banner2{
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.banner2 img{
+	height: 100px;
+    width: 400px;
+}
+.submenu{
+	width: 100%;
+	background-color: blue;
+	height: 80%;
+	display: none;
+}
+.submenu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 30px;
+}
+.submenu li{
+	font-family: sans-serif;
+	display: inline-block;
+	margin: 40px;
+	padding-bottom: 35px;
+	font-weight: bold;
+}	
+.submenu li a{
+	color: black;
+	text-decoration: none;
+	text-align: left;
+}
+.submenu .drop-choice {
+    display: inline-block;
+    position: absolute;
+}
+.submenu .drop-choice a{
+	color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 80%;
+    display: block;
+    text-align: left;
+}
+.submenu li a:hover, .drop:hover .dropdown{
+	background-color: blue;
+	text-decoration: underline;
+	color: red;
+}
+.footerlogo, .copyright{
+	float: left;
+	margin: 10px 5px;
+}
+.copyright{
+	float: left;
+	margin: 10px 35px;
+	font-size: 50%;
+}
+.info{
+	float: right;
+	margin: 10px 0;
+	font-size: 50%;
+}
+.menu .no-drop li{
+	float: left;
+}

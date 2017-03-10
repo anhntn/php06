@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 90%;
+	margin: 15px auto;
+	border: 1px solid black;
+}
+header{
+	clear: both;
+	height: 50px;
+	border: 1px solid black;
+}
+section{
+	width: 66%;
+	height: 400px;
+	border-right: 1.5px solid #ef9c00;
+	float: left;
+}
+aside{
+	width: 33%;
+	float: right;
+}
+footer{
+	clear: both;
+	height: 50px;
+	border: 1px solid black;
+}

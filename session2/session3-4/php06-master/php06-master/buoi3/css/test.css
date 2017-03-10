@@ -1,0 +1,58 @@
+.bg_hotro_left {
+    background: #fff !important;
+    border: 3px solid #5b8b14;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.cate-pro {
+    margin-bottom: 20px;
+    position: relative;
+    background: #f5faff;
+}
+
+.bg_hotro_left h2.title_menu {
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    border-bottom: thin solid #5b8b14;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-indent: 15px;
+    border-top-left-radius: 8px;
+    font-weight: 600;
+}
+
+.hotline-left {
+    margin-top: 1px;
+}
+
+.hotline-left-content {
+    background: url(../images/icon_hotline_left.png) no-repeat;
+    min-width: 109px;
+    height: 80px;
+    padding: 10px 15px;
+}
+
+.hotline-left-info {
+    position: relative;
+    top: 65px;
+    left: 55px;
+    font-size: 22px;
+    color: #fc3030;
+    font-style: italic;
+}
+
+.hotro-left-info p {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px 3px;
+    color: #6a6969;
+}
+
+.hotro-left-img .img2 {
+    position: relative;
+    left: 3px;
+    margin-right: 10px;
+}

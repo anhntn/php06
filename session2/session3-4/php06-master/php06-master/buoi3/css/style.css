@@ -1,0 +1,15 @@
+* {}
+
+body {
+    border: 2px dotted;
+    margin: 10px;
+}
+
+section {
+    width: 500px;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {}

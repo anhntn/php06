@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    height: auto;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    background-color: snow;
+    border: 5px solid #7f7f81;
+    border-radius: 5px;
+}
+
+#header,
+#footer {
+    clear: both;
+    width: 96%;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+}
+
+#header>img {
+    float: left;
+    margin: 0 50px;
+}
+
+#header>h3,
+#footer>h3 {
+    padding: 3% 0;
+}
+
+#active {
+    background-color: aquamarine;
+    border-bottom: 2px solid red;
+    padding-top: 2px;
+}
+
+.menu {
+    clear: both;
+}
+
+.main-menu {
+    margin-top: 20px;
+    height: 30px;
+    position: relative;
+    color: #000000;
+    background: linear-gradient(#e8e8e8, #d6d6d6);
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #fff;
+}
+
+.main-menu>ul {}
+
+.submenu {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    float: left;
+    left: 0px;
+    color: #000000;
+    background: linear-gradient(#e8e8e8, #d6d6d6);
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #fff;
+    display: none;
+}
+
+.submenu>li {
+    list-style-type: none;
+    width: auto;
+    height: 100%;
+    list-style-type: none;
+    padding: 5px 6px;
+    float: left;
+    background: url(../images/menu-line.png) right center no-repeat;
+}
+
+.submenu>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu>ul>li {
+    width: auto;
+    height: 100%;
+    border-: 1px solid white;
+    list-style-type: none;
+    float: left;
+    padding: 0 6px;
+    background: url(../images/menu-line.png) right center no-repeat;
+    float: left;
+}
+
+.menu>ul>li>a {
+    line-height: 28px;
+    height: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+
+.menu>ul>li:hover {
+    border-bottom: 1px solid red;
+    background-color: white;
+}
+
+.menu>ul>li:hover>.submenu {
+    display: inline;
+    color: black;
+}
+
+.submenu>li:hover {
+    border-bottom: 1px solid red;
+    background-color: white;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.content {
+    clear: both;
+    margin: 50px auto;
+}
+
+#nav {
+    width: 20%;
+    height: 400px;
+    background-color: #c4c4c4;
+    border: 10px solid #7f7f81;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 23.984px;
+    float: left;
+    display: block;
+}
+
+#nav>h3,
+#aside>h3 {
+    padding-top: 80px;
+}
+
+.section {
+    width: 53%;
+    height: 400px;
+    background-color: #c4c4c4;
+    border: 10px solid #7f7f81;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 16px;
+    display: inline-block;
+    float: left;
+}
+
+#aside {
+    width: 20%;
+    height: 400px;
+    background-color: #c4c4c4;
+    border: 10px solid #7f7f81;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 24px;
+    display: inline-block;
+}
+
+.section-header,
+.section-article,
+.section-footer {
+    width: 98%;
+    height: 80px;
+    background-color: #c4c4c4;
+    border: 10px solid #7f7f81;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.section-header>h4,
+.section-article>h4,
+.section-footer>h4 {
+    padding-top: 20px;
+}
+
+.section-article {
+    height: 160px;
+}
+
+.section-article>h4 {
+    padding-top: 60px;
+}
+
+.column-1 {
+    float: left;
+}
+
+.column-1>ul>li {
+    list-style-type: none;
+}
+
+#footer {
+    background: linear-gradient(#e8e8e8, #d6d6d6);
+    border: 1px solid gray;
+}
+
+.linemenu {
+    width: 100%;
+    height: auto;
+    float: left;
+    left: 0px;
+}
+
+.ulBlockMenu {
+    width: 13%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 16px;
+}
+
+.ulMainMenu>li {
+    padding-bottom: 10px;
+}
+
+.ulBlockMenu>li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.ulBlockMenu>li>h2>a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.liFollow>h2>a {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.ft-bot {
+    width: 100%;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.ft-botl {
+    width: 16%;
+    float: left;
+    left: 0;
+}
+
+.ft-botm {
+    float: left;
+    width: 30%;
+}
+
+.ft-botr {
+    text-align: right;
+    width: 35%;
+    right: 0;
+    float: right;
+}
+
+.ft-botr a {
+    color: black;
+    text-decoration: none;
+}
